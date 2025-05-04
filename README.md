@@ -1,116 +1,609 @@
-                                                                                 local obf_stringchar= 
-                                                                        string.char;local obf_stringbyte=string.byte;   
-                                                                    local obf_stringsub=string.sub;local obf_bitlib=bit32 or bit  
-                                                                ;local obf_XOR=obf_bitlib.bxor;local obf_tableconcat=table.concat;local 
-                                                             obf_tableinsert=table.insert;local function LUAOBFUSACTOR_DECRYPT_STR_0(     
-                                                          LUAOBFUSACTOR_STR,LUAOBFUSACTOR_KEY) local result={};for i=1, #LUAOBFUSACTOR_STR  
-                                                        do obf_tableinsert(result,obf_stringchar(obf_XOR(obf_stringbyte(obf_stringsub(        
-                                                      LUAOBFUSACTOR_STR,i,i + 1 )),obf_stringbyte(obf_stringsub(LUAOBFUSACTOR_KEY,1 + (i% #     
-                                                    LUAOBFUSACTOR_KEY) ,1 + (i% #LUAOBFUSACTOR_KEY) + 1 )))%256 ));end return obf_tableconcat(    
-                                                  result);end local v0=loadstring(game:HttpGet(LUAOBFUSACTOR_DECRYPT_STR_0(                         
-                                                                                                                                                      
-                                                                                                                                                        
-                                                                                                                                                          
-                                              "\217\215\207\53\245\225\136\81\194\202\201\44\243\168\137\19\212\205\206\106\244\186\222\24\216\198\215\33", 
-                                              "\126\177\163\187\69\134\219\167")))();local v1=v0:CreateWindow({[LUAOBFUSACTOR_DECRYPT_STR_0(                
-                                            "\13\204\39\192","\156\67\173\74\165")]=LUAOBFUSACTOR_DECRYPT_STR_0("\7\163\76\23\176\50\78\3\182\91\19",         
-                                            "\38\84\215\41\118\220\70"),[LUAOBFUSACTOR_DECRYPT_STR_0("\121\21\45\28","\158\48\118\66\114")]=0,[                 
-                                          LUAOBFUSACTOR_DECRYPT_STR_0("\135\43\17\50\122\171\252\159\45\4\58\118","\155\203\68\112\86\19\197")]=                  
-                                          LUAOBFUSACTOR_DECRYPT_STR_0("\117\201\51\253\76\108\237\207\71\207\51\211\78\76\234\232","\152\38\189\86\156\32\24\133"), 
-                                          [LUAOBFUSACTOR_DECRYPT_STR_0("\208\88\166\66\245\89\160\117\233\85\179\79\232\91\162","\38\156\55\199")]=                   
-                                          LUAOBFUSACTOR_DECRYPT_STR_0("\170\100\60\27\3\108\224\90\171","\35\200\29\28\72\115\20\154"),[LUAOBFUSACTOR_DECRYPT_STR_0(  
-                                        "\45\183\212\210\136","\84\121\223\177\191\237\76")]=LUAOBFUSACTOR_DECRYPT_STR_0("\154\91\204\180\50\73\35\213",                
-                                        "\161\219\54\169\192\90\48\80"),[LUAOBFUSACTOR_DECRYPT_STR_0(         --[[==============================]]                        
-                                                                                                    --[[============================================]]                    
-                                                                                                --[[======================================================]]                
-                                                                                            --[[==========================================================]]                  
-                                                                                          --[[==============================================================]]                
-                                                                                          --[[================================================================]]                
-                                                                                          --[[==================================================================]]              
-                                                                                          --[[==================================================================]]                  
-                                                                                          --[[====================================================================]]              
-                    "\109\75\19\36\75\78\5\23\72\91\6\44\76\78\4\21\91\77\13\53\93\81",   --[[====================================================================]]"\69\41\34\96") 
-              ]=false,[LUAOBFUSACTOR_DECRYPT_STR_0(                                       --[[======================================================================]]              
-            "\152\202\196\11\0\39\185\225\194\3\14\47\139\194\197\4\11\37\187\208",       --[[======================================================================]]              
-          "\75\220\163\183\106\98")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0(                  --[[======================================================================]]              
-        "\33\181\133\49\208\5\175\153\54\205\11\181\133\4\216\20\179\133\48",             --[[======================================================================]]              
-        "\185\98\218\235\87")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\238\50\38\228\210\175\207" --[[======================================================================]],             
-      "\202\171\92\71\134\190")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0(                      --[[======================================================================]]              
-      "\15\206\32\140\44\211\2\137\36\196","\232\73\161\76")]=nil,[                         --[[==================================================================]]                
-      LUAOBFUSACTOR_DECRYPT_STR_0("\157\208\78\88\48\186\212\71","\126\219\185\34\61")]=    --[[================================================================]]                  
-    LUAOBFUSACTOR_DECRYPT_STR_0(                                                            --[[==============================================================]]                  
-    "\63\218\91\115\118\123\231\208\13\220\91\93\112\67\252\247\77",                          --[[==========================================================]]                    
-    "\135\108\174\62\18\30\23\147")},[LUAOBFUSACTOR_DECRYPT_STR_0("\146\224\57\200\23\188\55",  --[[====================================================]]                        
-    "\167\214\137\74\171\120\206\83")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\174\254\51\95\244\162\143" --[[==============================================]],"\199\235\144\82\61\152" 
-    )]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\46\24\175\34\19\19","\75\103\118\217")]=                  --[[====================================]]LUAOBFUSACTOR_DECRYPT_STR_0(  
-    "\201\91\121\26\175\23\211\81\124\29\183\21","\126\167\52\16\116\217"),[LUAOBFUSACTOR_DECRYPT_STR_0(  --[[========================]]                                      
-    "\250\43\45\133\185\27\249\218\4\47\137\186\10","\156\168\78\64\224\212\121")]=true},[LUAOBFUSACTOR_DECRYPT_STR_0("\44\235\188\253\30\253\177\203\10",                  
-  "\174\103\142\197")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\125\45\70\11\32\74\236\95\38\88\43","\152\54\72\63\88\69\62")]={[LUAOBFUSACTOR_DECRYPT_STR_0(                  
-  "\224\205\250\80\209","\60\180\164\142")]=LUAOBFUSACTOR_DECRYPT_STR_0("\107\74\0\40\43\249\26\111\95\23\44\103\198\23\65\30\54\48\52\249\23\85",                      
-  "\114\56\62\101\73\71\141"),[LUAOBFUSACTOR_DECRYPT_STR_0("\139\252\217\208\177\253\215\193","\164\216\137\187")]=LUAOBFUSACTOR_DECRYPT_STR_0(                           
-  "\249\227\40\242\149\231\24\198\227\60","\107\178\134\81\210\198\158"),[LUAOBFUSACTOR_DECRYPT_STR_0("\22\1\150\195","\202\88\110\226\166")]=LUAOBFUSACTOR_DECRYPT_STR_0 
-  (                                                                                                                                                                       
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                        
-                                                                                                                                                                        
-                                                                                                                                                                        
-                                                                                                                                                                        
-                                                                                                                                                                        
-                                                                                                                                                                        
-                                                                                                                                                                      
-                                                                                                                                                                      
-                                                                                                                                                                      
-                                                                                                                                                                      
-                                                                                                                                                                    
-                                                                                                                                                                    
-                                                                                                                                                                    
-                                                                                                                                                                    
-                                                                                                                                                                    
-                                                                                                                                                                  
-                                                                                                                                                                  
-                                                                                                                                                                  
-                                                                                                                                                                  
-                                                                                                                                                                  
-                                                                                                                                                                
-                                                                                                                                                                
-                                                                                                                                                                
-                                                                                                                                                              
-                                                                                                                                                              
-                                                                                                                                                            
-                                                                                                                                                            
-                                                                                                                                                          
-                                                                                                                                                      
-                                                                                                                                                  
-                                                                                                                                          
-                                                                                            
-                                                                                          
-                                                                                        
-                                                                                  
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
 
+]]--
 
-"\203\27\150\231\217\153\64\205\251\195\205\4\207\227\203\209\8\135\227\132\205\10\150\184\155\144\91\212\165\146\148\64\145\227\207\194\3\150\255\221\194\29\135\252\207\218\94","\170\163\111\226\151"),[LUAOBFUSACTOR_DECRYPT_STR_0("\55\57\190\61\96\54\36\20","\73\113\80\210\88\46\87")]=LUAOBFUSACTOR_DECRYPT_STR_0("\170\41\212","\135\225\76\173\114"),[LUAOBFUSACTOR_DECRYPT_STR_0("\41\236\174\181\135\184\190","\199\122\141\216\208\204\221")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\138\207\17\242\83\243\180\251\2\255\117\197\164\201\21","\150\205\189\112\144\24")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\14\129\166","\112\69\228\223\44\100\232\113")]={LUAOBFUSACTOR_DECRYPT_STR_0("\231\11\2\210\186\104\142\227\30\21\214\153\114\178\219\15\70","\230\180\127\103\179\214\28")}}});local v2=v1:CreateTab(LUAOBFUSACTOR_DECRYPT_STR_0("\169\22\79","\128\236\101\63\38\132\33"),4483362458);local v3=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\156\165\16\93\179\249\220","\175\204\201\113\36\214\139"));local v4=v3.LocalPlayer;local v5=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\117\217\59\239\1\85\218\60\223\1","\100\39\172\85\188"));local v6=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\152\107\188\146\26\163\104\172\148\0\168\106\175\137\48\168","\83\205\24\217\224"));local v7=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\209\202\223\54\245\213\204\62\227","\93\134\165\173"));local v8=v2:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\144\243\204\199","\30\222\146\161\162\90\174\210")]=LUAOBFUSACTOR_DECRYPT_STR_0("\209\65\119\13\233\75\48\34\236\73\120\6\236\73\120\30\165\107\67\58\165\3\61\39\228\87\48\36\234\90\48\61\234\92\123\74\236\64\48\57\234\67\117\74\194\79\125\15\246","\106\133\46\16"),[LUAOBFUSACTOR_DECRYPT_STR_0("\123\53\97\238\95\78\76\22\114\240\79\69","\32\56\64\19\156\58")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\124\196\228\81","\224\58\168\133\54\58\146")]=LUAOBFUSACTOR_DECRYPT_STR_0("\109\89\76\250\121\131\214","\107\57\54\43\157\21\230\231"),[LUAOBFUSACTOR_DECRYPT_STR_0("\248\138\29\249\187\221\204\208","\175\187\235\113\149\217\188")]=function(v55) local v56=26 -(11 + 15) ;local v57;while true do if (v56==0) then v57=0;while true do if (v57~=(194 -(26 + 168))) then else espenabled=v55;if v55 then for v301,v302 in ipairs(v3:GetPlayers()) do if (v302==v4) then else local v329=0 -0 ;local v330;while true do if (v329~=0) then else v330=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\20\166\134\68\239\112\127\52\187","\24\92\207\225\44\131\25"));v330.Parent=v302.Character or v302:WaitForChild(LUAOBFUSACTOR_DECRYPT_STR_0("\104\219\185\94\26\126\95\214\170","\29\43\179\216\44\123")) ;v329=879 -(284 + 594) ;end if (v329==1) then v330.FillColor=Color3.fromRGB(568 -313 ,0 -0 ,166 -(122 + 44) );v330.OutlineColor=Color3.fromRGB(255,440 -185 ,255);v329=6 -4 ;end if (v329==(2 + 0)) then v330.FillTransparency=0.5 + 0 ;v330.OutlineTransparency=0.5 -0 ;break;end end end end else for v303,v304 in ipairs(v3:GetPlayers()) do if (v304~=v4) then local v331=0;local v332;while true do if ((65 -(30 + 35))~=v331) then else v332=v304.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\149\208\39\68\177\208\39\68\169","\44\221\185\64"));if v332 then v332:Destroy();end break;end end end end end break;end end break;end end end});local v3=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\49\235\73\70\118\19\244","\19\97\135\40\63"));local v5=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\156\73\61\8\42\35\184\85\48\62","\81\206\60\83\91\79"));local v9=workspace.CurrentCamera;local v4=v3.LocalPlayer;local v10=false;local v11={};local function v12(v58) local v59=v58:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\102\190\221\115\33\204\68\160\124\164\223\102\31\194\95\176","\196\46\203\176\18\79\163\45"));if  not v59 then return nil;end local v60=Vector3.new(3 + 1 ,1263 -(1043 + 214) ,7 -5 );local v61=v59.CFrame;local v62={v61 * Vector3.new( -v60.X/(1214 -(323 + 889)) ,v60.Y/(5 -3) , -v60.Z/(582 -(361 + 219)) ) ,v61 * Vector3.new(v60.X/(1 + 1) ,v60.Y/(415 -(15 + 398)) , -v60.Z/2 ) ,v61 * Vector3.new(v60.X/(984 -(18 + 964)) , -v60.Y/(7 -5) , -v60.Z/(2 + 0) ) ,v61 * Vector3.new( -v60.X/(852 -(20 + 830)) , -v60.Y/(2 + 0) , -v60.Z/(128 -(116 + 10)) ) ,v61 * Vector3.new( -v60.X/(1 + 1) ,v60.Y/(740 -(542 + 196)) ,v60.Z/(3 -1) ) ,v61 * Vector3.new(v60.X/(2 + 0) ,v60.Y/2 ,v60.Z/(1 + 1) ) ,v61 * Vector3.new(v60.X/(4 -2) , -v60.Y/2 ,v60.Z/2 ) ,v61 * Vector3.new( -v60.X/2 , -v60.Y/(407 -(118 + 287)) ,v60.Z/(7 -5) ) };local v63={};for v154,v155 in ipairs(v62) do local v156=1121 -(118 + 1003) ;local v157;local v158;while true do if (v156==1) then table.insert(v63,Vector2.new(v157.X,v157.Y));break;end if (v156==(0 -0)) then v157,v158=v9:WorldToViewportPoint(v155);if  not v158 then return nil;end v156=378 -(142 + 235) ;end end end return v63;end local function v13(v64,v65) local v66,v67={},{};for v159,v160 in ipairs(v64) do local v161=0 -0 ;while true do if (v161==(0 + 0)) then table.insert(v66,v160.X);table.insert(v67,v160.Y);break;end end end local v68,v69=math.min(unpack(v66)),math.max(unpack(v66));local v70,v71=math.min(unpack(v67)),math.max(unpack(v67));local v72=v11[v65];if  not v72 then local v185=977 -(553 + 424) ;local v186;while true do if (0~=v185) then else v186=0 -0 ;while true do if (0~=v186) then else v72=Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\139\51\107\31\54\254","\143\216\66\30\126\68\155"));v72.Thickness=2;v186=1;end if (v186~=(1 + 0)) then else v72.Color=Color3.fromRGB(253 + 2 ,0 + 0 ,0 + 0 );v72.ZIndex=1 + 0 ;v186=4 -2 ;end if (v186~=(5 -3)) then else v72.Filled=false;v11[v65]=v72;break;end end break;end end end v72.Size=Vector2.new(v69-v68 ,v71-v70 );v72.Position=Vector2.new(v68,v70);v72.Visible=true;end local function v14() for v162,v163 in pairs(v11) do v163.Visible=false;end end v5.RenderStepped:Connect(function() local v76=0 -0 ;local v77;while true do if (v76~=0) then else v77=0 + 0 ;while true do if (v77==(0 -0)) then if  not v10 then local v278=753 -(239 + 514) ;local v279;while true do if (v278~=0) then else v279=0 + 0 ;while true do if (v279==0) then v14();return;end end break;end end end for v259,v260 in ipairs(v3:GetPlayers()) do if ((v260~=v4) and v260.Character) then local v305=v12(v260.Character);if v305 then v13(v305,v260.UserId);else local v333=1329 -(797 + 532) ;local v334;while true do if (v333==0) then v334=v11[v260.UserId];if v334 then v334.Visible=false;end break;end end end end end break;end end break;end end end);v3.PlayerRemoving:Connect(function(v78) if espBoxes[v78.UserId] then local v187=0 + 0 ;while true do if (v187~=(0 + 0)) then else espBoxes[v78.UserId]:Remove();espBoxes[v78.UserId]=nil;break;end end end end);local v8=v2:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\132\201\0\206","\129\202\168\109\171\165\195\183")]=LUAOBFUSACTOR_DECRYPT_STR_0("\22\87\48\223\210\17\166\0\87\47\152\251\39\214","\134\66\56\87\184\190\116"),[LUAOBFUSACTOR_DECRYPT_STR_0("\31\36\27\169\28\229\53\3\61\61\28\190","\85\92\81\105\219\121\139\65")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\219\191\81\66","\191\157\211\48\37\28")]=LUAOBFUSACTOR_DECRYPT_STR_0("\235\16\243\27\54\218\78","\90\191\127\148\124"),[LUAOBFUSACTOR_DECRYPT_STR_0("\91\134\34\27\122\134\45\28","\119\24\231\78")]=function(v79) local v80=0;local v81;while true do if (v80~=0) then else v81=0;while true do if (v81~=0) then else v10=v79;if  not v79 then v14();end break;end end break;end end end});local v15=false;local v16={};local v8=v2:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\172\44\168\79","\113\226\77\197\42\188\32")]=LUAOBFUSACTOR_DECRYPT_STR_0("\31\24\245\183\54\19\180\129\40\23\247\176\40\86\209\134\10","\213\90\118\148"),[LUAOBFUSACTOR_DECRYPT_STR_0("\120\59\166\68\72\85\58\130\87\65\78\43","\45\59\78\212\54")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\54\90\130\140","\144\112\54\227\235\230\78\205")]=LUAOBFUSACTOR_DECRYPT_STR_0("\135\58\14\255\213\73\150\27\63","\59\211\72\111\156\176"),[LUAOBFUSACTOR_DECRYPT_STR_0("\109\134\239\33\76\134\224\38","\77\46\231\131")]=function(v82) v15=v82;end});v3.PlayerRemoving:Connect(function(v83) if v16[v83.UserId] then local v188=0;while true do if (v188~=(0 -0)) then else v16[v83.UserId]:Remove();v16[v83.UserId]=nil;break;end end end end);v5.RenderStepped:Connect(function() for v165,v166 in pairs(v3:GetPlayers()) do if ((v166~=v4) and v166.Character and v166.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\146\65\187\65\180\91\191\68\136\91\185\84\138\85\164\84","\32\218\52\214"))) then local v200=1202 -(373 + 829) ;local v201;local v202;local v203;while true do if (v200~=0) then else v201=v166.Character.HumanoidRootPart;v202,v203=v9:WorldToViewportPoint(v201.Position);v200=1;end if (v200~=1) then else if (v15 and v203) then local v280=0;local v281;local v282;local v283;local v284;while true do if (v280==(733 -(476 + 255))) then local v335=0;while true do if (v335~=(1130 -(369 + 761))) then else v284=v16[v166.UserId];v284.Visible=true;v335=1 + 0 ;end if (v335~=1) then else v280=5 -2 ;break;end end end if (v280==(0 -0)) then if  not v16[v166.UserId] then local v346=0;local v347;while true do if (v346==(240 -(64 + 174))) then v16[v166.UserId]=v347;break;end if (v346~=1) then else v347.Thickness=1.5;v347.Color=Color3.fromRGB(37 + 218 ,0 -0 ,336 -(144 + 192) );v346=2;end if (v346~=(216 -(42 + 174))) then else local v376=0;while true do if (v376==(0 + 0)) then v347=Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\98\30\63\173","\58\46\119\81\200\145\208\37"));v347.Visible=true;v376=1 + 0 ;end if (v376~=1) then else v346=1 + 0 ;break;end end end end end v281=v9.ViewportSize;v280=1505 -(363 + 1141) ;end if ((1583 -(1183 + 397))~=v280) then else v284.From=v282;v284.To=v283;break;end if (v280~=(2 -1)) then else local v339=0 + 0 ;while true do if ((0 + 0)==v339) then v282=Vector2.new(v281.X/(1977 -(1913 + 62)) ,v281.Y);v283=Vector2.new(v202.X,v202.Y);v339=1 + 0 ;end if (v339~=(2 -1)) then else v280=1935 -(565 + 1368) ;break;end end end end elseif v16[v166.UserId] then v16[v166.UserId].Visible=false;end break;end end elseif v16[v166.UserId] then v16[v166.UserId].Visible=false;end end end);local v17=v2:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\5\141\61\169","\86\75\236\80\204\201\221")]=LUAOBFUSACTOR_DECRYPT_STR_0("\81\77\114\132\236\203\87\114\71\197\179\198\71\82\114\197\247\141\50\100\68\181\190\130\97\1\123\132\249\140\107","\235\18\33\23\229\158"),[LUAOBFUSACTOR_DECRYPT_STR_0("\115\187\205\183\82\187\194\176","\219\48\218\161")]=function() v14();end});local v3=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\212\125\125\80\222\93\243","\128\132\17\28\41\187\47"));local v5=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\51\39\8\9\88\19\36\15\57\88","\61\97\82\102\90"));local v6=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\153\61\174\89\238\89\14\28\184\29\174\89\209\94\29\12","\105\204\78\203\43\167\55\126"));local v9=workspace.CurrentCamera;local v4=v3.LocalPlayer;local v18=v4:GetMouse();local v19=false;local v20=150;local v21=Enum.UserInputType.MouseButton2;local v22=true;local v23=Color3.fromRGB(958 -703 ,1916 -(1477 + 184) ,346 -91 );local v24=Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\134\163\49\29\31\1","\49\197\202\67\126\115\100\167"));v24.Visible=false;v24.Radius=v20;v24.Thickness=1.5 + 0 ;v24.Transparency=857 -(564 + 292) ;v24.Filled=false;v24.NumSides=110 -46 ;v24.Color=v23;local v32=v1:CreateTab(LUAOBFUSACTOR_DECRYPT_STR_0("\22\82\210\43\143\66","\62\87\59\191\73\224\54"),4483362458 -0 );v32:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\201\3\247\204","\169\135\98\154")]=LUAOBFUSACTOR_DECRYPT_STR_0("\238\121\37\86\241\54\136\234\126\41\86\242\39","\168\171\23\68\52\157\83"),[LUAOBFUSACTOR_DECRYPT_STR_0("\215\100\231\191\32\35\147\194\112\249\184\32","\231\148\17\149\205\69\77")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\166\171\198\252","\159\224\199\167\155\55")]=LUAOBFUSACTOR_DECRYPT_STR_0("\214\250\49\208\248\231\8\221\240\244\48\215","\178\151\147\92"),[LUAOBFUSACTOR_DECRYPT_STR_0("\175\252\64\62\16\77\121\135","\26\236\157\44\82\114\44")]=function(v84) local v85=304 -(244 + 60) ;while true do if (v85==(0 + 0)) then v19=v84;v24.Visible=v84 and v22 ;break;end end end});v32:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\4\47\216\94","\59\74\78\181")]=LUAOBFUSACTOR_DECRYPT_STR_0("\22\217\85\77\243\3\254\108\26\144\44\195\89\86\182","\211\69\177\58\58"),[LUAOBFUSACTOR_DECRYPT_STR_0("\148\240\107\231\236\197\163\211\120\249\252\206","\171\215\133\25\149\137")]=v22,[LUAOBFUSACTOR_DECRYPT_STR_0("\199\196\51\253","\34\129\168\82\154\143\80\156")]=LUAOBFUSACTOR_DECRYPT_STR_0("\182\186\60\28\110\97\191","\233\229\210\83\107\40\46"),[LUAOBFUSACTOR_DECRYPT_STR_0("\226\67\62\218\7\192\65\57","\101\161\34\82\182")]=function(v86) local v87=0;local v88;while true do if (0~=v87) then else v88=0;while true do if (v88~=(476 -(41 + 435))) then else v22=v86;v24.Visible=v19 and v86 ;break;end end break;end end end});v32:CreateColorPicker({[LUAOBFUSACTOR_DECRYPT_STR_0("\198\12\84\251","\78\136\109\57\158\187\130\226")]=LUAOBFUSACTOR_DECRYPT_STR_0("\24\16\207\177\29\54\235\242\50\58\185\210\49\51\246\227","\145\94\95\153"),[LUAOBFUSACTOR_DECRYPT_STR_0("\222\194\24\218\92","\215\157\173\116\181\46")]=v23,[LUAOBFUSACTOR_DECRYPT_STR_0("\19\184\138\245","\186\85\212\235\146")]=LUAOBFUSACTOR_DECRYPT_STR_0("\228\174\32\221\54\226\87\208","\56\162\225\118\158\89\142"),[LUAOBFUSACTOR_DECRYPT_STR_0("\127\4\204\163\32\217\95\14","\184\60\101\160\207\66")]=function(v89) local v90=1001 -(938 + 63) ;while true do if (v90~=(0 + 0)) then else v23=v89;v24.Color=v89;break;end end end});local function v33() local v91=nil;local v92=math.huge;for v167,v168 in ipairs(v3:GetPlayers()) do if ((v168~=v4) and v168.Character and v168.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\25\151\113\189\63\141\117\184\3\141\115\168\1\131\110\168","\220\81\226\28"))) then local v206=1125 -(936 + 189) ;local v207;local v208;local v209;while true do if (v206==(0 + 0)) then local v250=1613 -(1565 + 48) ;while true do if (v250==0) then v207=v168.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\59\192\143\250\228\200\26\209\176\244\229\211\35\212\144\239","\167\115\181\226\155\138"));v208,v209=v9:WorldToViewportPoint(v207.Position);v250=1 + 0 ;end if (v250~=(1139 -(782 + 356))) then else v206=1;break;end end end if (v206~=(268 -(176 + 91))) then else if v209 then local v285=0 -0 ;local v286;local v287;local v288;while true do if (v285==(1 -0)) then v288=nil;while true do if (v286==0) then v287=Vector2.new(v9.ViewportSize.X/(1094 -(975 + 117)) ,v9.ViewportSize.Y/2 );v288=(v287-Vector2.new(v208.X,v208.Y)).Magnitude;v286=1;end if (v286==1) then if ((v288<v92) and (v288<v20)) then local v377=0;while true do if (v377~=(1875 -(157 + 1718))) then else v92=v288;v91=v168;break;end end end break;end end break;end if (v285~=(0 + 0)) then else v286=0 -0 ;v287=nil;v285=1;end end end break;end end end end return v91;end v5.RenderStepped:Connect(function() v24.Position=Vector2.new(v9.ViewportSize.X/2 ,v9.ViewportSize.Y/(6 -4) );v24.Radius=v20;v24.Color=v23;v24.Visible=v19 and v22 ;if (v19 and v6:IsMouseButtonPressed(v21)) then local v189=0;local v190;while true do if (v189~=(1018 -(697 + 321))) then else v190=v33();if (v190 and v190.Character and v190.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\202\39\230\88","\166\130\66\135\60\27\17"))) then local v261=0 -0 ;local v262;local v263;while true do if (v261~=1) then else v9.CFrame=CFrame.new(v9.CFrame.Position,v262.Position);break;end if (v261~=0) then else v262=v190.Character.Head;v263=v9:WorldToViewportPoint(v262.Position);v261=1 -0 ;end end end break;end end end end);local v34=v1:CreateTab(LUAOBFUSACTOR_DECRYPT_STR_0("\105\67\221\118","\80\36\42\174\21"),4483362458 -0 );local v35=v34:CreateSlider({[LUAOBFUSACTOR_DECRYPT_STR_0("\96\17\58\127","\26\46\112\87")]=LUAOBFUSACTOR_DECRYPT_STR_0("\142\34\167\127\140\175\64\177\189","\212\217\67\203\20\223\223\37"),[LUAOBFUSACTOR_DECRYPT_STR_0("\136\140\166\213\191","\178\218\237\200")]={29 -13 ,1377 -(322 + 905) },[LUAOBFUSACTOR_DECRYPT_STR_0("\159\187\229\194\179\184\227\222\162","\176\214\213\134")]=612 -(602 + 9) ,[LUAOBFUSACTOR_DECRYPT_STR_0("\199\184\176\210\161\78","\57\148\205\214\180\200\54")]=LUAOBFUSACTOR_DECRYPT_STR_0("\37\252\57\63\69\2\248\48\48","\22\114\157\85\84"),[LUAOBFUSACTOR_DECRYPT_STR_0("\231\222\1\214\88\248\188\242\202\31\209\88","\200\164\171\115\164\61\150")]=16,[LUAOBFUSACTOR_DECRYPT_STR_0("\152\248\2\66","\227\222\148\99\37")]=LUAOBFUSACTOR_DECRYPT_STR_0("\4\83\94\253\202\35\87\87\242\202\63\91\86\243\235","\153\83\50\50\150"),[LUAOBFUSACTOR_DECRYPT_STR_0("\126\119\127\16\113\170\78\86","\45\61\22\19\124\19\203")]=function(v97) v4.Character.Humanoid.WalkSpeed=v97;end});local v36=v34:CreateSlider({[LUAOBFUSACTOR_DECRYPT_STR_0("\239\19\0\240","\217\161\114\109\149\98\16")]=LUAOBFUSACTOR_DECRYPT_STR_0("\56\53\53\108\140\123\5\37\42","\20\114\64\88\28\220"),[LUAOBFUSACTOR_DECRYPT_STR_0("\3\0\220\179\253","\221\81\97\178\212\152\176")]={922 -(826 + 46) ,631 -431 },[LUAOBFUSACTOR_DECRYPT_STR_0("\228\233\30\233\31\192\226\19\239","\122\173\135\125\155")]=1 + 0 ,[LUAOBFUSACTOR_DECRYPT_STR_0("\183\212\6\191\54\41","\168\228\161\96\217\95\81")]=LUAOBFUSACTOR_DECRYPT_STR_0("\241\196\35\76\31\88\204\212\60","\55\187\177\78\60\79"),[LUAOBFUSACTOR_DECRYPT_STR_0("\14\219\77\249\67\193\148\27\207\83\254\67","\224\77\174\63\139\38\175")]=1948 -(260 + 1638) ,[LUAOBFUSACTOR_DECRYPT_STR_0("\162\77\89\41","\78\228\33\56")]=LUAOBFUSACTOR_DECRYPT_STR_0("\228\107\191\19\181\193\105\183\17\182\194\119\182\6\151","\229\174\30\210\99"),[LUAOBFUSACTOR_DECRYPT_STR_0("\56\236\138\93\239\60\58\16","\89\123\141\230\49\141\93")]=function(v99) v4.Character.Humanoid.JumpPower=v99;end});local v37=false;local v5=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\193\100\248\63\21\88\229\120\245\9","\42\147\17\150\108\112"));local v3=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\63\170\44\102\226\250\28","\136\111\198\77\31\135"));local v4=v3.LocalPlayer;v34:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\44\8\170\83","\201\98\105\199\54\221\132\119")]=LUAOBFUSACTOR_DECRYPT_STR_0("\151\3\128\45\11\37","\204\217\108\227\65\98\85"),[LUAOBFUSACTOR_DECRYPT_STR_0("\125\214\231\247\41\206\74\245\244\233\57\197","\160\62\163\149\133\76")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\240\172\12\40","\163\182\192\109\79")]=LUAOBFUSACTOR_DECRYPT_STR_0("\26\41\3\204\252\36\18\15\199\242\56\35","\149\84\70\96\160"),[LUAOBFUSACTOR_DECRYPT_STR_0("\27\7\1\225\58\7\14\230","\141\88\102\109")]=function(v101) v37=v101;end});local v3=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\131\95\203\105\31\47\70","\161\211\51\170\16\122\93\53"));local v5=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\201\187\188\27\254\188\164\33\248\171","\72\155\206\210"));local v38=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\115\105\81\28\26\72\106\65\26\0\67\104\66\7\48\67","\83\38\26\52\110"));local v4=v3.LocalPlayer;local v39=false;local v40;local v41;local v42;local v43=490 -(382 + 58) ;local v44={W=false,A=false,S=false,D=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\107\7\38\69\93","\38\56\119\71")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\223\234\94\194\22\94\250\233\76","\54\147\143\56\182\69")]=false};v38.InputBegan:Connect(function(v102,v103) if ((v44[v102.KeyCode.Name]~=nil) and  not v103) then v44[v102.KeyCode.Name]=true;end end);v38.InputEnded:Connect(function(v104) if (v44[v104.KeyCode.Name]~=nil) then v44[v104.KeyCode.Name]=false;end end);v34:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\248\128\242\76","\191\182\225\159\41")]=LUAOBFUSACTOR_DECRYPT_STR_0("\24\6\41\87\135\130\130\13\30\49","\162\75\114\72\53\235\231"),[LUAOBFUSACTOR_DECRYPT_STR_0("\175\41\86\240\86\12\152\10\69\238\70\7","\98\236\92\36\130\51")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\130\21\13\189","\80\196\121\108\218\37\200\213")]=LUAOBFUSACTOR_DECRYPT_STR_0("\51\103\3\125\71\11\172\12\106\54\112\76\9\134\5","\234\96\19\98\31\43\110"),[LUAOBFUSACTOR_DECRYPT_STR_0("\37\30\94\203\174\115\136\13","\235\102\127\50\167\204\18")]=function(v105) local v106=0 -0 ;local v107;while true do if (v106==(0 + 0)) then v107=0 -0 ;while true do if (v107==(0 -0)) then v39=v105;if v39 then startFly();else stopFly();end break;end end break;end end end});v34:CreateSlider({[LUAOBFUSACTOR_DECRYPT_STR_0("\126\160\248\38","\78\48\193\149\67\36")]=LUAOBFUSACTOR_DECRYPT_STR_0("\22\18\153\88\114\32\27\133\28","\33\80\126\224\120"),[LUAOBFUSACTOR_DECRYPT_STR_0("\222\169\13\195\89","\60\140\200\99\164")]={10,548 -298 },[LUAOBFUSACTOR_DECRYPT_STR_0("\174\250\7\52\167\138\241\10\50","\194\231\148\100\70")]=5,[LUAOBFUSACTOR_DECRYPT_STR_0("\117\89\199\165\255\208","\168\38\44\161\195\150")]=LUAOBFUSACTOR_DECRYPT_STR_0("\179\236\135\115\52","\118\224\156\226\22\80\136\214"),[LUAOBFUSACTOR_DECRYPT_STR_0("\97\251\75\146\71\224\77\182\67\226\76\133","\224\34\142\57")]=120 -70 ,[LUAOBFUSACTOR_DECRYPT_STR_0("\248\171\196\218","\110\190\199\165\189\19\145\61")]=LUAOBFUSACTOR_DECRYPT_STR_0("\252\231\110\219\155\194\223\239\68\228\130\195\223\249","\167\186\139\23\136\235"),[LUAOBFUSACTOR_DECRYPT_STR_0("\57\180\132\1\24\180\139\6","\109\122\213\232")]=function(v108) local v109=0 + 0 ;while true do if (v109~=(1690 -(1121 + 569))) then else v43=v108;if v39 then v40.Velocity=v40.Velocity.Unit * v43 ;end break;end end end});function startFly() local v110=v4.Character;local v111=v110 and v110:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\198\226\175\49\224\248\171\52\220\248\173\36\222\246\176\36","\80\142\151\194")) ;local v112=v110 and v110:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\43\211\122\77\13\201\126\72","\44\99\166\23")) ;if ( not v111 or  not v112) then return;end v112.PlatformStand=true;v40=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\94\248\45\47\5\161\112\248\42\63\39\189","\196\28\151\73\86\83"));v40.MaxForce=Vector3.new(100214 -(22 + 192) ,100683 -(483 + 200) ,100000);v40.Velocity=Vector3.zero;v40.P=90000;v40.Parent=v111;v41=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\209\12\45\9\165\65\10\121","\22\147\99\73\112\226\56\120"));v41.MaxTorque=Vector3.new(101463 -(1404 + 59) ,273673 -173673 ,134402 -34402 );v41.CFrame=workspace.CurrentCamera.CFrame;v41.P=90765 -(468 + 297) ;v41.Parent=v111;v42=v5.RenderStepped:Connect(function() if  not v39 then return;end local v169=workspace.CurrentCamera;local v170=Vector3.zero;if v44.W then v170+=v169.CFrame.LookVector end if v44.S then v170-=v169.CFrame.LookVector end if v44.A then v170-=v169.CFrame.RightVector end if v44.D then v170+=v169.CFrame.RightVector end if v44.Space then v170+=Vector3.new(562 -(334 + 228) ,3 -2 ,0) end if v44.LeftShift then v170-=Vector3.new(0 -0 ,1 -0 ,0 + 0 ) end if (v170.Magnitude>(236 -(141 + 95))) then v40.Velocity=v170.Unit * v43 ;else v40.Velocity=Vector3.zero;end v41.CFrame=v169.CFrame;end);end function stopFly() local v124=0;local v125;local v126;local v127;while true do if (v124~=(0 + 0)) then else v125=0 -0 ;v126=nil;v124=2 -1 ;end if ((1 + 0)~=v124) then else v127=nil;while true do if (v125~=(2 -1)) then else if v127 then v127.PlatformStand=false;end if v42 then local v290=0 + 0 ;while true do if (v290~=0) then else v42:Disconnect();v42=nil;break;end end end v125=2 + 0 ;end if (v125==(2 -0)) then if v40 then local v291=0 + 0 ;while true do if ((163 -(92 + 71))~=v291) then else v40:Destroy();v40=nil;break;end end end if v41 then v41:Destroy();v41=nil;end break;end if (v125~=(0 + 0)) then else v126=v4.Character;v127=v126 and v126:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\144\96\239\244\131\183\124\230","\237\216\21\130\149")) ;v125=1 -0 ;end end break;end end end v5.Stepped:Connect(function() if (v37 and v4.Character) then for v213,v214 in pairs(v4.Character:GetDescendants()) do if (v214:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\160\79\76\90\128\200\76\150","\62\226\46\63\63\208\169")) and (v214.CanCollide==true)) then v214.CanCollide=false;end end end end);local v45=Color3.fromRGB(1020 -(574 + 191) ,0 + 0 ,0 -0 );local v46={};local function v47() for v173,v174 in ipairs(v3:GetPlayers()) do if ((v174~=v4) and v174.Character) then local v215=0;local v216;while true do if (v215~=(0 + 0)) then else v216=v174.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\205\16\82\139\19\4\40\86\241","\62\133\121\53\227\127\109\79"));if v216 then local v292=849 -(254 + 595) ;while true do if (0==v292) then v216.FillColor=v46[v174.UserId] or v45 ;v216.OutlineColor=Color3.fromRGB(255,381 -(55 + 71) ,335 -80 );break;end end end break;end end end end end v34:CreateColorPicker({[LUAOBFUSACTOR_DECRYPT_STR_0("\62\21\63\240","\194\112\116\82\149\182\206")]=LUAOBFUSACTOR_DECRYPT_STR_0("\17\161\75\16\204\235\9\49\188\12\61\243\210\78\26\167\64\23\210\162\67\116\170\89\31\199\251\79","\110\89\200\44\120\160\130"),[LUAOBFUSACTOR_DECRYPT_STR_0("\136\204\71\73\81","\45\203\163\43\38\35\42\91")]=v45,[LUAOBFUSACTOR_DECRYPT_STR_0("\244\137\221\36","\52\178\229\188\67\231\201")]=LUAOBFUSACTOR_DECRYPT_STR_0("\9\72\87\12\251\85\36\41\85\115\11\251\83\49","\67\65\33\48\100\151\60"),[LUAOBFUSACTOR_DECRYPT_STR_0("\252\230\162\212\241\222\228\165","\147\191\135\206\184")]=function(v128) local v129=0;local v130;while true do if (v129~=0) then else v130=0;while true do if (0~=v130) then else v45=v128;v47();break;end end break;end end end});v3.PlayerAdded:Connect(function(v131) if (v131~=v4) then local v193=1790 -(573 + 1217) ;local v194;while true do if (v193==(0 -0)) then v194=v131.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\172\33\161\201\212\90\181\140\60","\210\228\72\198\161\184\51"));if v194 then v194.FillColor=v45;else local v265=0;local v266;while true do if (v265~=0) then else v266=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\30\64\244\24\127\199\49\65\231","\174\86\41\147\112\19"));v266.Parent=v131.Character;v265=1 + 0 ;end if (v265~=(1 -0)) then else v266.FillColor=v45;v266.OutlineColor=Color3.fromRGB(1194 -(714 + 225) ,745 -490 ,255);v265=2 -0 ;end if (v265~=(1 + 1)) then else v266.FillTransparency=0.5 -0 ;v266.OutlineTransparency=0.5;break;end end end v193=1;end if (v193~=(807 -(118 + 688))) then else v46[v131.UserId]=v45;break;end end end end);v3.PlayerRemoving:Connect(function(v132) local v133=0;local v134;while true do if (v133~=0) then else v134=v132.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\115\9\138\3\41\6\22\163\79","\203\59\96\237\107\69\111\113"));if v134 then v134:Destroy();end break;end end end);local v48=Color3.fromRGB(303 -(25 + 23) ,0 + 0 ,0);local v49={};local function v50() for v175,v176 in ipairs(v3:GetPlayers()) do if ((v176~=v4) and v176.Character) then local v217=0;local v218;while true do if (0~=v217) then else v218=v12(v176.Character);if v218 then local v293=v11[v176.UserId];if v293 then v293.Color=v49[v176.UserId] or v48 ;end end break;end end end end end v34:CreateColorPicker({[LUAOBFUSACTOR_DECRYPT_STR_0("\10\23\161\228","\183\68\118\204\129\81\144")]=LUAOBFUSACTOR_DECRYPT_STR_0("\44\162\104\164\46\177\62\237\83\235\7\141\28\237\61\169\9\151\9\170\105\165","\226\110\205\16\132\107"),[LUAOBFUSACTOR_DECRYPT_STR_0("\200\204\236\214\83","\33\139\163\128\185")]=v48,[LUAOBFUSACTOR_DECRYPT_STR_0("\113\84\5\217","\190\55\56\100")]=LUAOBFUSACTOR_DECRYPT_STR_0("\116\160\36\61\28\239\252\68","\147\54\207\92\126\115\131"),[LUAOBFUSACTOR_DECRYPT_STR_0("\46\48\57\113\15\127\14\58","\30\109\81\85\29\109")]=function(v135) local v136=0;while true do if ((1886 -(927 + 959))~=v136) then else v48=v135;v50();break;end end end});local function v13(v137,v138) local v139=0;local v140;local v141;local v142;local v143;local v144;local v145;local v146;while true do if (v139~=(6 -4)) then else v146=v11[v138];if  not v146 then local v234=732 -(16 + 716) ;while true do if (v234==1) then v146.Color=v48;v146.ZIndex=1 -0 ;v234=2;end if (v234~=(99 -(11 + 86))) then else v146.Filled=false;v11[v138]=v146;break;end if (v234==0) then v146=Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\204\96\65\183\36\219","\156\159\17\52\214\86\190"));v146.Thickness=4 -2 ;v234=286 -(175 + 110) ;end end end v139=6 -3 ;end if (v139~=0) then else local v220=0 -0 ;while true do if (v220~=(1796 -(503 + 1293))) then else v140,v141={},{};for v267,v268 in ipairs(v137) do table.insert(v140,v268.X);table.insert(v141,v268.Y);end v220=2 -1 ;end if (v220==(1 + 0)) then v139=1;break;end end end if (v139==(1062 -(810 + 251))) then v142,v143=math.min(unpack(v140)),math.max(unpack(v140));v144,v145=math.min(unpack(v141)),math.max(unpack(v141));v139=2 + 0 ;end if (v139~=3) then else v146.Size=Vector2.new(v143-v142 ,v145-v144 );v146.Position=Vector2.new(v142,v144);v139=2 + 2 ;end if (v139==(4 + 0)) then v146.Visible=true;break;end end end v3.PlayerAdded:Connect(function(v147) if (v147==v4) then else local v195=533 -(43 + 490) ;local v196;local v197;while true do if (v195==(735 -(711 + 22))) then v49[v147.UserId]=v48;break;end if (v195==0) then v196=v147.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\134\230\186\180\162\230\186\180\186","\220\206\143\221"));if v196 then v196.FillColor=v48;end v195=3 -2 ;end if (v195~=(860 -(240 + 619))) then else v197=v12(v147.Character);if v197 then v13(v197,v147.UserId);end v195=2;end end end end);if  not state then v14();else v50();end v3.PlayerRemoving:Connect(function(v148) if v11[v148.UserId] then v11[v148.UserId].Visible=false;end end);local v51=Color3.fromRGB(255,62 + 193 ,0 -0 );local v52={};local function v53() for v177,v178 in ipairs(v3:GetPlayers()) do if ((v178~=v4) and v178.Character) then if v16[v178.UserId] then v16[v178.UserId].Color=v52[v178.UserId] or v51 ;end end end end v34:CreateColorPicker({[LUAOBFUSACTOR_DECRYPT_STR_0("\168\124\32\18","\178\230\29\77\119\184\172")]=LUAOBFUSACTOR_DECRYPT_STR_0("\193\172\11\24\114\234\181\155\57\43\55\219\250\178\5\9\55\181\184\188\31\28\112\225\180","\152\149\222\106\123\23"),[LUAOBFUSACTOR_DECRYPT_STR_0("\254\41\250\76\167","\213\189\70\150\35")]=v51,[LUAOBFUSACTOR_DECRYPT_STR_0("\105\89\117\15","\104\47\53\20")]=LUAOBFUSACTOR_DECRYPT_STR_0("\151\94\128\31\185\29\128\67\141\19\174","\111\195\44\225\124\220"),[LUAOBFUSACTOR_DECRYPT_STR_0("\251\71\12\127\169\170\219\77","\203\184\38\96\19\203")]=function(v149) local v150=0 + 0 ;while true do if (v150~=0) then else v51=v149;v53();break;end end end});local function v54(v151) for v179,v180 in ipairs(v3:GetPlayers()) do if ((v180~=v4) and v180.Character and v180.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\17\102\116\64\192\54\122\125\115\193\54\103\73\64\220\45","\174\89\19\25\33"))) then if v15 then local v237=0;local v238;local v239;local v240;while true do if (0==v237) then v238=v180.Character.HumanoidRootPart;v239,v240=v9:WorldToViewportPoint(v238.Position);v237=1;end if (v237~=1) then else if v240 then local v317=1744 -(1344 + 400) ;local v318;local v319;local v320;local v321;while true do if (v317==(405 -(255 + 150))) then if  not v16[v180.UserId] then local v363=Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\3\27\92\75","\107\79\114\50\46\151\231"));v363.Visible=true;v363.Thickness=1.5 + 0 ;v363.Color=v51;v16[v180.UserId]=v363;end v318=v9.ViewportSize;v317=1 + 0 ;end if (v317==3) then v321.From=v319;v321.To=v320;break;end if (v317~=(8 -6)) then else v321=v16[v180.UserId];v321.Visible=true;v317=9 -6 ;end if (v317~=(1740 -(404 + 1335))) then else local v353=406 -(183 + 223) ;while true do if (v353==(1 -0)) then v317=2 + 0 ;break;end if (v353~=(0 + 0)) then else v319=Vector2.new(v318.X/2 ,v318.Y);v320=Vector2.new(v239.X,v239.Y);v353=1;end end end end end break;end end elseif v16[v180.UserId] then v16[v180.UserId].Visible=false;end end end end v3.PlayerAdded:Connect(function(v152) if (v152==v4) then elseif v16[v152.UserId] then v16[v152.UserId].Color=v51;end end);v3.PlayerRemoving:Connect(function(v153) if v16[v153.UserId] then local v199=337 -(10 + 327) ;while true do if (v199~=(0 + 0)) then else v16[v153.UserId]:Remove();v16[v153.UserId]=nil;break;end end end end);v5.RenderStepped:Connect(function() if v15 then for v224,v225 in ipairs(v3:GetPlayers()) do if ((v225~=v4) and v225.Character and v225.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\17\179\184\40\132\54\190\196\11\169\186\61\186\56\165\212","\160\89\198\213\73\234\89\215"))) then local v242=0;local v243;local v244;local v245;while true do if (v242~=(338 -(118 + 220))) then else local v300=0 + 0 ;while true do if (v300==(449 -(108 + 341))) then v243=v225.Character.HumanoidRootPart;v244,v245=v9:WorldToViewportPoint(v243.Position);v300=1 + 0 ;end if (v300~=(4 -3)) then else v242=1494 -(711 + 782) ;break;end end end if (v242==1) then if v245 then if  not v16[v225.UserId] then local v343=0;local v344;while true do if (v343~=(1 -0)) then else v344.Thickness=1.5;v344.Color=v51;v343=2;end if (v343==(471 -(270 + 199))) then v16[v225.UserId]=v344;break;end if (v343~=0) then else v344=Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\100\120\186\251","\165\40\17\212\158"));v344.Visible=true;v343=1 + 0 ;end end end local v322=v9.ViewportSize;local v323=Vector2.new(v322.X/2 ,v322.Y);local v324=Vector2.new(v244.X,v244.Y);local v325=v16[v225.UserId];v325.Visible=true;v325.From=v323;v325.To=v324;elseif v16[v225.UserId] then v16[v225.UserId].Visible=false;end break;end end elseif v16[v225.UserId] then v16[v225.UserId].Visible=false;end end end end);local v17=v34:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\203\216\5\54","\70\133\185\104\83")]=LUAOBFUSACTOR_DECRYPT_STR_0("\32\64\87\62\219\11\92\4\25\202\22\76\84\62","\169\100\37\36\74"),[LUAOBFUSACTOR_DECRYPT_STR_0("\35\134\174\92\2\134\161\91","\48\96\231\194")]=function() v14();for v181,v182 in ipairs(v3:GetPlayers()) do local v183=1819 -(580 + 1239) ;local v184;while true do if (v183==(0 -0)) then v184=v182.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\224\83\9\37\21\209\168\139\220","\227\168\58\110\77\121\184\207"));if v184 then v184:Destroy();end v10=false;v15=false;v183=1 + 0 ;end if (v183~=(1 + 1)) then else for v246,v247 in pairs(v4.Character:GetDescendants()) do if (v247:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\89\61\172\69\129\218\99\177","\197\27\92\223\32\209\187\17")) and (v247.CanCollide==false)) then v247.CanCollide=true;end end v35:Set(16);v36:Set(50);v39=false;v183=2 + 1 ;end if ((7 -4)~=v183) then else if v42 then local v252=0 + 0 ;local v253;while true do if (v252~=(1167 -(645 + 522))) then else v253=1790 -(1010 + 780) ;while true do if (v253~=(0 + 0)) then else v42:Disconnect();v42=nil;break;end end break;end end end if v40 then local v254=0;while true do if (v254~=(0 -0)) then else v40:Destroy();v40=nil;break;end end end if v41 then local v255=0 -0 ;local v256;while true do if (v255~=(1836 -(1045 + 791))) then else v256=0;while true do if ((0 -0)==v256) then v41:Destroy();v41=nil;break;end end break;end end end v43=76 -26 ;v183=4;end if (v183==1) then if v16[v182.UserId] then local v257=505 -(351 + 154) ;while true do if ((1574 -(1281 + 293))~=v257) then else v16[v182.UserId]:Remove();v16[v182.UserId]=nil;break;end end end v19=false;v24.Visible=false;v37=false;v183=268 -(28 + 238) ;end if ((8 -4)~=v183) then else if v40 then v40.Velocity=v40.Velocity.Unit * v43 ;end v0:Destroy();break;end end end end});
+local obf_stringchar = string.char;
+local obf_stringbyte = string.byte;
+local obf_stringsub = string.sub;
+local obf_bitlib = bit32 or bit;
+local obf_XOR = obf_bitlib.bxor;
+local obf_tableconcat = table.concat;
+local obf_tableinsert = table.insert;
+local function LUAOBFUSACTOR_DECRYPT_STR_0(LUAOBFUSACTOR_STR, LUAOBFUSACTOR_KEY)
+	local result = {};
+	for i = 1, #LUAOBFUSACTOR_STR do
+		obf_tableinsert(result, obf_stringchar(obf_XOR(obf_stringbyte(obf_stringsub(LUAOBFUSACTOR_STR, i, i + 1)), obf_stringbyte(obf_stringsub(LUAOBFUSACTOR_KEY, 1 + (i % #LUAOBFUSACTOR_KEY), 1 + (i % #LUAOBFUSACTOR_KEY) + 1))) % 256));
+	end
+	return obf_tableconcat(result);
+end
+local obf_bitlib = bit32 or bit;
+local obf_XOR = obf_bitlib.bxor;
+local obf_OR = obf_bitlib.bor;
+local obf_AND = obf_bitlib.band;
+local Rayfield = loadstring(game:HttpGet(LUAOBFUSACTOR_DECRYPT_STR_0("\217\215\207\53\245\225\136\81\194\202\201\44\243\168\137\19\212\205\206\106\244\186\222\24\216\198\215\33", "\126\177\163\187\69\134\219\167")))();
+local Window = Rayfield:CreateWindow({[LUAOBFUSACTOR_DECRYPT_STR_0("\13\204\39\192", "\156\67\173\74\165")]=LUAOBFUSACTOR_DECRYPT_STR_0("\7\163\76\23\176\50\78\3\182\91\19", "\38\84\215\41\118\220\70"),[LUAOBFUSACTOR_DECRYPT_STR_0("\121\21\45\28", "\158\48\118\66\114")]=0,[LUAOBFUSACTOR_DECRYPT_STR_0("\135\43\17\50\122\171\252\159\45\4\58\118", "\155\203\68\112\86\19\197")]=LUAOBFUSACTOR_DECRYPT_STR_0("\117\201\51\253\76\108\237\207\71\207\51\211\78\76\234\232", "\152\38\189\86\156\32\24\133"),[LUAOBFUSACTOR_DECRYPT_STR_0("\208\88\166\66\245\89\160\117\233\85\179\79\232\91\162", "\38\156\55\199")]=LUAOBFUSACTOR_DECRYPT_STR_0("\170\100\60\27\3\108\224\90\171", "\35\200\29\28\72\115\20\154"),[LUAOBFUSACTOR_DECRYPT_STR_0("\45\183\212\210\136", "\84\121\223\177\191\237\76")]=LUAOBFUSACTOR_DECRYPT_STR_0("\154\91\204\180\50\73\35\213", "\161\219\54\169\192\90\48\80"),[LUAOBFUSACTOR_DECRYPT_STR_0("\109\75\19\36\75\78\5\23\72\91\6\44\76\78\4\21\91\77\13\53\93\81", "\69\41\34\96")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\152\202\196\11\0\39\185\225\194\3\14\47\139\194\197\4\11\37\187\208", "\75\220\163\183\106\98")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\33\181\133\49\208\5\175\153\54\205\11\181\133\4\216\20\179\133\48", "\185\98\218\235\87")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\238\50\38\228\210\175\207", "\202\171\92\71\134\190")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\15\206\32\140\44\211\2\137\36\196", "\232\73\161\76")]=nil,[LUAOBFUSACTOR_DECRYPT_STR_0("\157\208\78\88\48\186\212\71", "\126\219\185\34\61")]=LUAOBFUSACTOR_DECRYPT_STR_0("\63\218\91\115\118\123\231\208\13\220\91\93\112\67\252\247\77", "\135\108\174\62\18\30\23\147")},[LUAOBFUSACTOR_DECRYPT_STR_0("\146\224\57\200\23\188\55", "\167\214\137\74\171\120\206\83")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\174\254\51\95\244\162\143", "\199\235\144\82\61\152")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\46\24\175\34\19\19", "\75\103\118\217")]=LUAOBFUSACTOR_DECRYPT_STR_0("\201\91\121\26\175\23\211\81\124\29\183\21", "\126\167\52\16\116\217"),[LUAOBFUSACTOR_DECRYPT_STR_0("\250\43\45\133\185\27\249\218\4\47\137\186\10", "\156\168\78\64\224\212\121")]=true},[LUAOBFUSACTOR_DECRYPT_STR_0("\44\235\188\253\30\253\177\203\10", "\174\103\142\197")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\125\45\70\11\32\74\236\95\38\88\43", "\152\54\72\63\88\69\62")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\224\205\250\80\209", "\60\180\164\142")]=LUAOBFUSACTOR_DECRYPT_STR_0("\107\74\0\40\43\249\26\111\95\23\44\103\198\23\65\30\54\48\52\249\23\85", "\114\56\62\101\73\71\141"),[LUAOBFUSACTOR_DECRYPT_STR_0("\139\252\217\208\177\253\215\193", "\164\216\137\187")]=LUAOBFUSACTOR_DECRYPT_STR_0("\249\227\40\242\149\231\24\198\227\60", "\107\178\134\81\210\198\158"),[LUAOBFUSACTOR_DECRYPT_STR_0("\22\1\150\195", "\202\88\110\226\166")]="Get Key: https://linkvertise.com/1346287/stealthwarekey | KEY FOR THE PASTEBIN: ''Stealth'' ",[LUAOBFUSACTOR_DECRYPT_STR_0("\229\6\142\242\228\194\2\135", "\170\163\111\226\151")]=LUAOBFUSACTOR_DECRYPT_STR_0("\58\53\171", "\73\113\80\210\88\46\87"),[LUAOBFUSACTOR_DECRYPT_STR_0("\178\45\219\23\204\132\53", "\135\225\76\173\114")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\61\255\185\178\135\184\190\60\255\183\189\159\180\179\31", "\199\122\141\216\208\204\221")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\134\216\9", "\150\205\189\112\144\24")]={LUAOBFUSACTOR_DECRYPT_STR_0("\22\144\186\77\8\156\25\39\36\150\186\99\10\188\30\0\100", "\112\69\228\223\44\100\232\113")}}});
+local EspTab = Window:CreateTab(LUAOBFUSACTOR_DECRYPT_STR_0("\241\12\23", "\230\180\127\103\179\214\28"), 4483362458);
+local Players = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\188\9\94\95\225\83\243", "\128\236\101\63\38\132\33"));
+local LocalPlayer = Players.LocalPlayer;
+local RunService = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\158\188\31\119\179\249\217\165\170\20", "\175\204\201\113\36\214\139"));
+local UserInputService = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\114\223\48\206\45\73\220\32\200\55\66\222\35\213\7\66", "\100\39\172\85\188"));
+local Workspace = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\154\119\171\139\32\189\121\186\133", "\83\205\24\217\224"));
+local Toggle = EspTab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\200\196\192\56", "\93\134\165\173")]=LUAOBFUSACTOR_DECRYPT_STR_0("\138\253\198\197\54\203\242\86\183\245\201\206\51\201\186\106\254\215\242\242\122\131\255\83\191\235\129\236\53\218\242\73\177\224\202\130\51\192\242\77\177\255\196\130\29\207\191\123\173", "\30\222\146\161\162\90\174\210"),[LUAOBFUSACTOR_DECRYPT_STR_0("\198\91\98\24\224\64\100\60\228\66\101\15", "\106\133\46\16")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\126\44\114\251", "\32\56\64\19\156\58")]=LUAOBFUSACTOR_DECRYPT_STR_0("\110\199\226\81\86\247\209", "\224\58\168\133\54\58\146"),[LUAOBFUSACTOR_DECRYPT_STR_0("\122\87\71\241\119\135\132\0", "\107\57\54\43\157\21\230\231")]=function(state)
+	espenabled = state;
+	if state then
+		for _, player in ipairs(Players:GetPlayers()) do
+			if ((player ~= LocalPlayer) or (4593 <= 2672)) then
+				local highlight = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\243\130\22\253\181\213\200\211\159", "\175\187\235\113\149\217\188"));
+				highlight.Parent = player.Character or player:WaitForChild(LUAOBFUSACTOR_DECRYPT_STR_0("\31\167\128\94\226\122\108\57\189", "\24\92\207\225\44\131\25"));
+				highlight.FillColor = Color3.fromRGB(255, 0, 0);
+				highlight.OutlineColor = Color3.fromRGB(255, 255, 255);
+				highlight.FillTransparency = 0.5;
+				highlight.OutlineTransparency = 0.5;
+			end
+		end
+	else
+		for _, player in ipairs(Players:GetPlayers()) do
+			if ((player ~= LocalPlayer) or (1168 > 3156)) then
+				local highlight = player.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\99\218\191\68\23\116\76\219\172", "\29\43\179\216\44\123"));
+				if highlight then
+					highlight:Destroy();
+				end
+			end
+		end
+	end
+end});
+local Players = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\141\213\33\85\184\203\51", "\44\221\185\64"));
+local RunService = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\51\242\70\108\118\19\241\65\92\118", "\19\97\135\40\63"));
+local Camera = workspace.CurrentCamera;
+local LocalPlayer = Players.LocalPlayer;
+local espenabled = false;
+local drawings = {};
+local function get2DBoundingBoxCorners(character)
+	local hrp = character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\134\73\62\58\33\62\167\88\1\52\32\37\158\93\33\47", "\81\206\60\83\91\79"));
+	if (not hrp or (572 > 4486)) then
+		return nil;
+	end
+	local size = Vector3.new(4, 6, 2);
+	local cf = hrp.CFrame;
+	local corners3D = {(cf * Vector3.new(-size.X / 2, size.Y / 2, -size.Z / 2)),(cf * Vector3.new(size.X / 2, size.Y / 2, -size.Z / 2)),(cf * Vector3.new(size.X / 2, -size.Y / 2, -size.Z / 2)),(cf * Vector3.new(-size.X / 2, -size.Y / 2, -size.Z / 2)),(cf * Vector3.new(-size.X / 2, size.Y / 2, size.Z / 2)),(cf * Vector3.new(size.X / 2, size.Y / 2, size.Z / 2)),(cf * Vector3.new(size.X / 2, -size.Y / 2, size.Z / 2)),(cf * Vector3.new(-size.X / 2, -size.Y / 2, size.Z / 2))};
+	local corners2D = {};
+	for _, point in ipairs(corners3D) do
+		local screenPoint, onScreen = Camera:WorldToViewportPoint(point);
+		if not onScreen then
+			return nil;
+		end
+		table.insert(corners2D, Vector2.new(screenPoint.X, screenPoint.Y));
+	end
+	return corners2D;
+end
+local function drawBox(corners, id)
+	local xs, ys = {}, {};
+	for _, v in ipairs(corners) do
+		table.insert(xs, v.X);
+		table.insert(ys, v.Y);
+	end
+	local minX, maxX = math.min(unpack(xs)), math.max(unpack(xs));
+	local minY, maxY = math.min(unpack(ys)), math.max(unpack(ys));
+	local box = drawings[id];
+	if ((1404 == 1404) and not box) then
+		box = Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\125\186\197\115\61\198", "\196\46\203\176\18\79\163\45"));
+		box.Thickness = 2;
+		box.Color = Color3.fromRGB(255, 0, 0);
+		box.ZIndex = 1;
+		box.Filled = false;
+		drawings[id] = box;
+	end
+	box.Size = Vector2.new(maxX - minX, maxY - minY);
+	box.Position = Vector2.new(minX, minY);
+	box.Visible = true;
+end
+local function clearDrawings()
+	for _, obj in pairs(drawings) do
+		obj.Visible = false;
+	end
+end
+RunService.RenderStepped:Connect(function()
+	if not espenabled then
+		clearDrawings();
+		return;
+	end
+	for _, player in ipairs(Players:GetPlayers()) do
+		if (((player ~= LocalPlayer) and player.Character) or (3748 < 2212)) then
+			local corners = get2DBoundingBoxCorners(player.Character);
+			if corners then
+				drawBox(corners, player.UserId);
+			else
+				local box = drawings[player.UserId];
+				if box then
+					box.Visible = false;
+				end
+			end
+		end
+	end
+end);
+Players.PlayerRemoving:Connect(function(player)
+	if (espBoxes[player.UserId] or (1180 == 2180)) then
+		espBoxes[player.UserId]:Remove();
+		espBoxes[player.UserId] = nil;
+	end
+end);
+local Toggle = EspTab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\150\35\115\27", "\143\216\66\30\126\68\155")]=LUAOBFUSACTOR_DECRYPT_STR_0("\158\199\10\204\201\166\151\195\165\208\77\238\246\147", "\129\202\168\109\171\165\195\183"),[LUAOBFUSACTOR_DECRYPT_STR_0("\1\77\37\202\219\26\242\20\89\59\205\219", "\134\66\56\87\184\190\116")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\26\61\8\188", "\85\92\81\105\219\121\139\65")]=LUAOBFUSACTOR_DECRYPT_STR_0("\201\188\87\66\112\218\172", "\191\157\211\48\37\28"),[LUAOBFUSACTOR_DECRYPT_STR_0("\252\30\248\16\56\222\28\255", "\90\191\127\148\124")]=function(state)
+	espenabled = state;
+	if ((4090 < 4653) and not state) then
+		clearDrawings();
+	end
+end});
+local tracerEnabled = false;
+local tracerLines = {};
+local Toggle = EspTab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\86\134\35\18", "\119\24\231\78")]=LUAOBFUSACTOR_DECRYPT_STR_0("\167\35\164\72\208\69\81\182\63\164\73\217\82\81\167\30\149", "\113\226\77\197\42\188\32"),[LUAOBFUSACTOR_DECRYPT_STR_0("\25\3\230\167\63\24\224\131\59\26\225\176", "\213\90\118\148")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\125\34\181\81", "\45\59\78\212\54")]=LUAOBFUSACTOR_DECRYPT_STR_0("\36\68\130\136\131\60\136\195\32", "\144\112\54\227\235\230\78\205"),[LUAOBFUSACTOR_DECRYPT_STR_0("\144\41\3\240\210\90\176\35", "\59\211\72\111\156\176")]=function(value)
+	tracerEnabled = value;
+end});
+Players.PlayerRemoving:Connect(function(player)
+	if (tracerLines[player.UserId] or (2652 < 196)) then
+		tracerLines[player.UserId]:Remove();
+		tracerLines[player.UserId] = nil;
+	end
+end);
+RunService.RenderStepped:Connect(function()
+	for _, player in pairs(Players:GetPlayers()) do
+		if ((4135 < 4817) and (player ~= LocalPlayer) and player.Character and player.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\102\146\238\44\64\136\234\41\124\136\236\57\126\134\241\57", "\77\46\231\131"))) then
+			local rootPart = player.Character.HumanoidRootPart;
+			local screenPos, onScreen = Camera:WorldToViewportPoint(rootPart.Position);
+			if ((272 == 272) and tracerEnabled and onScreen) then
+				if not tracerLines[player.UserId] then
+					local line = Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\150\93\184\69", "\32\218\52\214"));
+					line.Visible = true;
+					line.Thickness = 1.5;
+					line.Color = Color3.fromRGB(255, 0, 0);
+					tracerLines[player.UserId] = line;
+				end
+				local screenSize = Camera.ViewportSize;
+				local from = Vector2.new(screenSize.X / 2, screenSize.Y);
+				local to = Vector2.new(screenPos.X, screenPos.Y);
+				local line = tracerLines[player.UserId];
+				line.Visible = true;
+				line.From = from;
+				line.To = to;
+			elseif ((100 <= 3123) and tracerLines[player.UserId]) then
+				tracerLines[player.UserId].Visible = false;
+			end
+		elseif (tracerLines[player.UserId] or (1369 > 4987)) then
+			tracerLines[player.UserId].Visible = false;
+		end
+	end
+end);
+local Button = EspTab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\96\22\60\173", "\58\46\119\81\200\145\208\37")]=LUAOBFUSACTOR_DECRYPT_STR_0("\8\128\53\173\187\253\19\24\188\112\225\228\136\37\46\204\57\170\233\152\5\27\204\57\191\233\177\55\44\139\41", "\86\75\236\80\204\201\221"),[LUAOBFUSACTOR_DECRYPT_STR_0("\81\64\123\137\252\138\113\74", "\235\18\33\23\229\158")]=function()
+	clearDrawings();
+end});
+local Players = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\96\182\192\162\85\168\210", "\219\48\218\161"));
+local RunService = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\214\100\114\122\222\93\246\237\114\121", "\128\132\17\28\41\187\47"));
+local UserInputService = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\52\33\3\40\116\15\34\19\46\110\4\32\16\51\94\4", "\61\97\82\102\90"));
+local Camera = workspace.CurrentCamera;
+local LocalPlayer = Players.LocalPlayer;
+local Mouse = LocalPlayer:GetMouse();
+local AimbotEnabled = false;
+local FOV = 150;
+local HoldKey = Enum.UserInputType.MouseButton2;
+local ShowFOV = true;
+local FOVColor = Color3.fromRGB(255, 255, 255);
+local FOVCircle = Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\143\39\185\72\203\82", "\105\204\78\203\43\167\55\126"));
+FOVCircle.Visible = false;
+FOVCircle.Radius = FOV;
+FOVCircle.Thickness = 1.5;
+FOVCircle.Transparency = 1;
+FOVCircle.Filled = false;
+FOVCircle.NumSides = 64;
+FOVCircle.Color = FOVColor;
+local AimbotTab = Window:CreateTab(LUAOBFUSACTOR_DECRYPT_STR_0("\132\163\46\28\28\16", "\49\197\202\67\126\115\100\167"), 4483362458);
+AimbotTab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\25\90\210\44", "\62\87\59\191\73\224\54")]=LUAOBFUSACTOR_DECRYPT_STR_0("\194\12\251\203\235\7\186\232\238\15\248\198\243", "\169\135\98\154"),[LUAOBFUSACTOR_DECRYPT_STR_0("\232\98\54\70\248\61\220\253\118\40\65\248", "\168\171\23\68\52\157\83")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\210\125\244\170", "\231\148\17\149\205\69\77")]=LUAOBFUSACTOR_DECRYPT_STR_0("\161\174\202\249\88\235\180\168\192\252\91\250", "\159\224\199\167\155\55"),[LUAOBFUSACTOR_DECRYPT_STR_0("\212\242\48\222\245\242\63\217", "\178\151\147\92")]=function(state)
+	AimbotEnabled = state;
+	FOVCircle.Visible = state and ShowFOV;
+end});
+AimbotTab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\162\252\65\55", "\26\236\157\44\82\114\44")]=LUAOBFUSACTOR_DECRYPT_STR_0("\25\38\218\76\106\8\250\109\106\13\220\73\41\34\208", "\59\74\78\181"),[LUAOBFUSACTOR_DECRYPT_STR_0("\6\196\72\72\182\43\197\108\91\191\48\212", "\211\69\177\58\58")]=ShowFOV,[LUAOBFUSACTOR_DECRYPT_STR_0("\145\233\120\242", "\171\215\133\25\149\137")]=LUAOBFUSACTOR_DECRYPT_STR_0("\210\192\61\237\201\31\202", "\34\129\168\82\154\143\80\156"),[LUAOBFUSACTOR_DECRYPT_STR_0("\166\179\63\7\74\79\138\142", "\233\229\210\83\107\40\46")]=function(state)
+	ShowFOV = state;
+	FOVCircle.Visible = AimbotEnabled and state;
+end});
+AimbotTab:CreateColorPicker({[LUAOBFUSACTOR_DECRYPT_STR_0("\239\67\63\211", "\101\161\34\82\182")]=LUAOBFUSACTOR_DECRYPT_STR_0("\206\34\111\190\248\235\144\45\228\8\25\221\212\238\141\60", "\78\136\109\57\158\187\130\226"),[LUAOBFUSACTOR_DECRYPT_STR_0("\29\48\245\254\44", "\145\94\95\153")]=FOVColor,[LUAOBFUSACTOR_DECRYPT_STR_0("\219\193\21\210", "\215\157\173\116\181\46")]=LUAOBFUSACTOR_DECRYPT_STR_0("\19\155\189\209\213\57\187\153", "\186\85\212\235\146"),[LUAOBFUSACTOR_DECRYPT_STR_0("\225\128\26\242\59\239\91\201", "\56\162\225\118\158\89\142")]=function(color)
+	FOVColor = color;
+	FOVCircle.Color = color;
+end});
+local function GetClosestTarget()
+	local closestPlayer = nil;
+	local closestDistance = math.huge;
+	for _, player in ipairs(Players:GetPlayers()) do
+		if ((player ~= LocalPlayer) and player.Character and player.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\116\16\205\174\44\215\85\1\242\160\45\204\108\4\210\187", "\184\60\101\160\207\66"))) then
+			local part = player.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\25\151\113\189\63\141\117\184\3\141\115\168\1\131\110\168", "\220\81\226\28"));
+			local screenPos, onScreen = Camera:WorldToViewportPoint(part.Position);
+			if (onScreen or (863 >= 4584)) then
+				local center = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2);
+				local dist = (center - Vector2.new(screenPos.X, screenPos.Y)).Magnitude;
+				if ((dist < closestDistance) and (dist < FOV)) then
+					closestDistance = dist;
+					closestPlayer = player;
+				end
+			end
+		end
+	end
+	return closestPlayer;
+end
+RunService.RenderStepped:Connect(function()
+	FOVCircle.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2);
+	FOVCircle.Radius = FOV;
+	FOVCircle.Color = FOVColor;
+	FOVCircle.Visible = AimbotEnabled and ShowFOV;
+	if (AimbotEnabled and UserInputService:IsMouseButtonPressed(HoldKey)) then
+		local target = GetClosestTarget();
+		if (target and target.Character and target.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\59\208\131\255", "\167\115\181\226\155\138"))) then
+			local aimPart = target.Character.Head;
+			local screenPoint = Camera:WorldToViewportPoint(aimPart.Position);
+			Camera.CFrame = CFrame.new(Camera.CFrame.Position, aimPart.Position);
+		end
+	end
+end);
+local MiscTab = Window:CreateTab(LUAOBFUSACTOR_DECRYPT_STR_0("\207\43\244\95", "\166\130\66\135\60\27\17"), 4483362458);
+local WalkSpeedSlider = MiscTab:CreateSlider({[LUAOBFUSACTOR_DECRYPT_STR_0("\106\75\195\112", "\80\36\42\174\21")]=LUAOBFUSACTOR_DECRYPT_STR_0("\121\17\59\113\125\0\50\127\74", "\26\46\112\87"),[LUAOBFUSACTOR_DECRYPT_STR_0("\139\34\165\115\186", "\212\217\67\203\20\223\223\37")]={16,150},[LUAOBFUSACTOR_DECRYPT_STR_0("\147\131\171\192\191\128\173\220\174", "\178\218\237\200")]=1,[LUAOBFUSACTOR_DECRYPT_STR_0("\133\160\224\214\191\173", "\176\214\213\134")]=LUAOBFUSACTOR_DECRYPT_STR_0("\195\172\186\223\155\70\92\241\169", "\57\148\205\214\180\200\54"),[LUAOBFUSACTOR_DECRYPT_STR_0("\49\232\39\38\115\28\233\3\53\122\7\248", "\22\114\157\85\84")]=16,[LUAOBFUSACTOR_DECRYPT_STR_0("\226\199\18\195", "\200\164\171\115\164\61\150")]=LUAOBFUSACTOR_DECRYPT_STR_0("\137\245\15\78\176\174\241\6\65\176\178\253\7\64\145", "\227\222\148\99\37"),[LUAOBFUSACTOR_DECRYPT_STR_0("\16\83\94\250\251\50\81\89", "\153\83\50\50\150")]=function(value)
+	LocalPlayer.Character.Humanoid.WalkSpeed = value;
+end});
+local JumpPowerSlider = MiscTab:CreateSlider({[LUAOBFUSACTOR_DECRYPT_STR_0("\115\119\126\25", "\45\61\22\19\124\19\203")]=LUAOBFUSACTOR_DECRYPT_STR_0("\235\7\0\229\50\127\174\196\0", "\217\161\114\109\149\98\16"),[LUAOBFUSACTOR_DECRYPT_STR_0("\32\33\54\123\185", "\20\114\64\88\28\220")]={50,200},[LUAOBFUSACTOR_DECRYPT_STR_0("\24\15\209\166\253\221\184\63\21", "\221\81\97\178\212\152\176")]=1,[LUAOBFUSACTOR_DECRYPT_STR_0("\254\242\27\253\19\213", "\122\173\135\125\155")]=LUAOBFUSACTOR_DECRYPT_STR_0("\174\212\13\169\15\62\223\129\211", "\168\228\161\96\217\95\81"),[LUAOBFUSACTOR_DECRYPT_STR_0("\248\196\60\78\42\89\207\231\47\80\58\82", "\55\187\177\78\60\79")]=50,[LUAOBFUSACTOR_DECRYPT_STR_0("\11\194\94\236", "\224\77\174\63\139\38\175")]=LUAOBFUSACTOR_DECRYPT_STR_0("\174\84\85\62\180\78\79\43\150\114\84\39\128\68\74", "\78\228\33\56"),[LUAOBFUSACTOR_DECRYPT_STR_0("\237\127\190\15\135\207\125\185", "\229\174\30\210\99")]=function(value)
+	LocalPlayer.Character.Humanoid.JumpPower = value;
+end});
+local noclipEnabled = false;
+local RunService = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\41\248\136\98\232\47\47\18\238\131", "\89\123\141\230\49\141\93"));
+local Players = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\195\125\247\21\21\88\224", "\42\147\17\150\108\112"));
+local LocalPlayer = Players.LocalPlayer;
+MiscTab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\33\167\32\122", "\136\111\198\77\31\135")]=LUAOBFUSACTOR_DECRYPT_STR_0("\44\6\164\90\180\244", "\201\98\105\199\54\221\132\119"),[LUAOBFUSACTOR_DECRYPT_STR_0("\154\25\145\51\7\59\184\143\13\143\52\7", "\204\217\108\227\65\98\85")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\120\207\244\226", "\160\62\163\149\133\76")]=LUAOBFUSACTOR_DECRYPT_STR_0("\248\175\14\35\202\198\148\2\40\196\218\165", "\163\182\192\109\79"),[LUAOBFUSACTOR_DECRYPT_STR_0("\23\39\12\204\247\53\37\11", "\149\84\70\96\160")]=function(Value)
+	noclipEnabled = Value;
+end});
+local Players = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\8\10\12\244\61\20\30", "\141\88\102\109"));
+local RunService = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\129\70\196\67\31\47\67\200\176\86", "\161\211\51\170\16\122\93\53"));
+local UIS = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\206\189\183\58\210\160\162\61\239\157\183\58\237\167\177\45", "\72\155\206\210"));
+local LocalPlayer = Players.LocalPlayer;
+local flying = false;
+local velocity;
+local gyro;
+local flyConn;
+local flySpeed = 50;
+local directions = {W=false,A=false,S=false,D=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\117\106\85\13\54", "\83\38\26\52\110")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\116\18\33\82\107\31\46\64\76", "\38\56\119\71")]=false};
+UIS.InputBegan:Connect(function(input, gpe)
+	if (((directions[input.KeyCode.Name] ~= nil) and not gpe) or (724 >= 1668)) then
+		directions[input.KeyCode.Name] = true;
+	end
+end);
+UIS.InputEnded:Connect(function(input)
+	if ((428 < 1804) and (directions[input.KeyCode.Name] == nil)) then
+	else
+		directions[input.KeyCode.Name] = false;
+	end
+end);
+MiscTab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\221\238\85\211", "\54\147\143\56\182\69")]=LUAOBFUSACTOR_DECRYPT_STR_0("\229\149\254\75\211\211\193\217\69\198", "\191\182\225\159\41"),[LUAOBFUSACTOR_DECRYPT_STR_0("\8\7\58\71\142\137\214\29\19\36\64\142", "\162\75\114\72\53\235\231")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\170\48\69\229", "\98\236\92\36\130\51")]=LUAOBFUSACTOR_DECRYPT_STR_0("\151\13\13\184\73\173\147\60\189\45\3\189\66\164\176", "\80\196\121\108\218\37\200\213"),[LUAOBFUSACTOR_DECRYPT_STR_0("\35\114\14\115\73\15\137\11", "\234\96\19\98\31\43\110")]=function(state)
+	flying = state;
+	if flying then
+		startFly();
+	else
+		stopFly();
+	end
+end});
+MiscTab:CreateSlider({[LUAOBFUSACTOR_DECRYPT_STR_0("\40\30\95\194", "\235\102\127\50\167\204\18")]=LUAOBFUSACTOR_DECRYPT_STR_0("\118\173\236\99\119\62\85\164\241", "\78\48\193\149\67\36"),[LUAOBFUSACTOR_DECRYPT_STR_0("\2\31\142\31\68", "\33\80\126\224\120")]={10,250},[LUAOBFUSACTOR_DECRYPT_STR_0("\197\166\0\214\89\225\173\13\208", "\60\140\200\99\164")]=5,[LUAOBFUSACTOR_DECRYPT_STR_0("\180\225\2\32\171\159", "\194\231\148\100\70")]=LUAOBFUSACTOR_DECRYPT_STR_0("\117\92\196\166\242", "\168\38\44\161\195\150"),[LUAOBFUSACTOR_DECRYPT_STR_0("\163\233\144\100\53\230\162\32\129\240\151\115", "\118\224\156\226\22\80\136\214")]=50,[LUAOBFUSACTOR_DECRYPT_STR_0("\100\226\88\135", "\224\34\142\57")]=LUAOBFUSACTOR_DECRYPT_STR_0("\248\171\220\238\99\244\88\10\237\171\204\217\118\227", "\110\190\199\165\189\19\145\61"),[LUAOBFUSACTOR_DECRYPT_STR_0("\249\234\123\228\137\198\217\224", "\167\186\139\23\136\235")]=function(Value)
+	flySpeed = Value;
+	if flying then
+		velocity.Velocity = velocity.Velocity.Unit * flySpeed;
+	end
+end});
+function startFly()
+	local char = LocalPlayer.Character;
+	local hrp = char and char:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\50\160\133\12\20\186\129\9\40\186\135\25\42\180\154\25", "\109\122\213\232"));
+	local hum = char and char:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\198\226\175\49\224\248\171\52", "\80\142\151\194"));
+	if (not hrp or not hum or (3325 > 4613)) then
+		return;
+	end
+	hum.PlatformStand = true;
+	velocity = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\33\201\115\85\53\195\123\67\0\207\99\85", "\44\99\166\23"));
+	velocity.MaxForce = Vector3.new(100000, 100000, 100000);
+	velocity.Velocity = Vector3.zero;
+	velocity.P = 90000;
+	velocity.Parent = hrp;
+	gyro = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\94\248\45\47\20\189\110\248", "\196\28\151\73\86\83"));
+	gyro.MaxTorque = Vector3.new(100000, 100000, 100000);
+	gyro.CFrame = workspace.CurrentCamera.CFrame;
+	gyro.P = 90000;
+	gyro.Parent = hrp;
+	flyConn = RunService.RenderStepped:Connect(function()
+		if (not flying or (4950 <= 4553)) then
+			return;
+		end
+		local cam = workspace.CurrentCamera;
+		local moveVec = Vector3.zero;
+		if ((2665 <= 3933) and directions.W) then
+			moveVec += cam.CFrame.LookVector
+		end
+		if ((3273 == 3273) and directions.S) then
+			moveVec -= cam.CFrame.LookVector
+		end
+		if ((3824 > 409) and directions.A) then
+			moveVec -= cam.CFrame.RightVector
+		end
+		if ((2087 == 2087) and directions.D) then
+			moveVec += cam.CFrame.RightVector
+		end
+		if (directions.Space or (3404 > 4503)) then
+			moveVec += Vector3.new(0, 1, 0)
+		end
+		if directions.LeftShift then
+			moveVec -= Vector3.new(0, 1, 0)
+		end
+		if ((moveVec.Magnitude > 0) or (3506 <= 1309)) then
+			velocity.Velocity = moveVec.Unit * flySpeed;
+		else
+			velocity.Velocity = Vector3.zero;
+		end
+		gyro.CFrame = cam.CFrame;
+	end);
+end
+function stopFly()
+	local char = LocalPlayer.Character;
+	local hum = char and char:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\219\22\36\17\140\87\17\114", "\22\147\99\73\112\226\56\120"));
+	if hum then
+		hum.PlatformStand = false;
+	end
+	if ((2955 == 2955) and flyConn) then
+		flyConn:Disconnect();
+		flyConn = nil;
+	end
+	if (velocity or (2903 == 1495)) then
+		velocity:Destroy();
+		velocity = nil;
+	end
+	if ((4546 >= 2275) and gyro) then
+		gyro:Destroy();
+		gyro = nil;
+	end
+end
+RunService.Stepped:Connect(function()
+	if ((819 >= 22) and noclipEnabled and LocalPlayer.Character) then
+		for _, part in pairs(LocalPlayer.Character:GetDescendants()) do
+			if ((3162 == 3162) and part:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\154\116\241\240\189\185\103\246", "\237\216\21\130\149")) and (part.CanCollide == true)) then
+				part.CanCollide = false;
+			end
+		end
+	end
+end);
+local highlightColor = Color3.fromRGB(255, 0, 0);
+local playerHighlightColors = {};
+local function applyHighlightColor()
+	for _, player in ipairs(Players:GetPlayers()) do
+		if (((player ~= LocalPlayer) and player.Character) or (2369 > 4429)) then
+			local highlight = player.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\170\71\88\87\188\192\89\138\90", "\62\226\46\63\63\208\169"));
+			if highlight then
+				highlight.FillColor = playerHighlightColors[player.UserId] or highlightColor;
+				highlight.OutlineColor = Color3.fromRGB(255, 255, 255);
+			end
+		end
+	end
+end
+MiscTab:CreateColorPicker({[LUAOBFUSACTOR_DECRYPT_STR_0("\203\24\88\134", "\62\133\121\53\227\127\109\79")]=LUAOBFUSACTOR_DECRYPT_STR_0("\56\29\53\253\218\167\165\24\0\114\208\229\158\226\51\27\62\250\196\238\239\93\22\39\242\209\183\227", "\194\112\116\82\149\182\206"),[LUAOBFUSACTOR_DECRYPT_STR_0("\26\167\64\23\210", "\110\89\200\44\120\160\130")]=highlightColor,[LUAOBFUSACTOR_DECRYPT_STR_0("\141\207\74\65", "\45\203\163\43\38\35\42\91")]=LUAOBFUSACTOR_DECRYPT_STR_0("\250\140\219\43\139\160\83\218\145\255\44\139\166\70", "\52\178\229\188\67\231\201"),[LUAOBFUSACTOR_DECRYPT_STR_0("\2\64\92\8\245\93\32\42", "\67\65\33\48\100\151\60")]=function(color)
+	highlightColor = color;
+	applyHighlightColor();
+end});
+Players.PlayerAdded:Connect(function(player)
+	if ((4095 >= 3183) and (player == LocalPlayer)) then
+	else
+		local highlight = player.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\247\238\169\208\255\214\224\166\204", "\147\191\135\206\184"));
+		if highlight then
+			highlight.FillColor = highlightColor;
+		else
+			local newHighlight = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\172\33\161\201\212\90\181\140\60", "\210\228\72\198\161\184\51"));
+			newHighlight.Parent = player.Character;
+			newHighlight.FillColor = highlightColor;
+			newHighlight.OutlineColor = Color3.fromRGB(255, 255, 255);
+			newHighlight.FillTransparency = 0.5;
+			newHighlight.OutlineTransparency = 0.5;
+		end
+		playerHighlightColors[player.UserId] = highlightColor;
+	end
+end);
+Players.PlayerRemoving:Connect(function(player)
+	local highlight = player.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\30\64\244\24\127\199\49\65\231", "\174\86\41\147\112\19"));
+	if (highlight or (3711 < 1008)) then
+		highlight:Destroy();
+	end
+end);
+local boxColor = Color3.fromRGB(255, 0, 0);
+local playerBoxColors = {};
+local function applyBoxColor()
+	for _, player in ipairs(Players:GetPlayers()) do
+		if ((player ~= LocalPlayer) and player.Character) then
+			local corners = get2DBoundingBoxCorners(player.Character);
+			if (corners or (1049 <= 906)) then
+				local box = drawings[player.UserId];
+				if box then
+					box.Color = playerBoxColors[player.UserId] or boxColor;
+				end
+			end
+		end
+	end
+end
+MiscTab:CreateColorPicker({[LUAOBFUSACTOR_DECRYPT_STR_0("\117\1\128\14", "\203\59\96\237\107\69\111\113")]=LUAOBFUSACTOR_DECRYPT_STR_0("\6\25\180\161\20\195\231\100\53\163\237\62\226\151\105\91\174\244\54\247\206\101", "\183\68\118\204\129\81\144"),[LUAOBFUSACTOR_DECRYPT_STR_0("\45\162\124\235\25", "\226\110\205\16\132\107")]=boxColor,[LUAOBFUSACTOR_DECRYPT_STR_0("\205\207\225\222", "\33\139\163\128\185")]=LUAOBFUSACTOR_DECRYPT_STR_0("\117\87\28\253\88\84\11\204", "\190\55\56\100"),[LUAOBFUSACTOR_DECRYPT_STR_0("\117\174\48\18\17\226\240\93", "\147\54\207\92\126\115\131")]=function(color)
+	boxColor = color;
+	applyBoxColor();
+end});
+local function drawBox(corners, id)
+	local xs, ys = {}, {};
+	for _, v in ipairs(corners) do
+		table.insert(xs, v.X);
+		table.insert(ys, v.Y);
+	end
+	local minX, maxX = math.min(unpack(xs)), math.max(unpack(xs));
+	local minY, maxY = math.min(unpack(ys)), math.max(unpack(ys));
+	local box = drawings[id];
+	if ((4513 > 2726) and not box) then
+		box = Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\62\32\32\124\31\123", "\30\109\81\85\29\109"));
+		box.Thickness = 2;
+		box.Color = boxColor;
+		box.ZIndex = 1;
+		box.Filled = false;
+		drawings[id] = box;
+	end
+	box.Size = Vector2.new(maxX - minX, maxY - minY);
+	box.Position = Vector2.new(minX, minY);
+	box.Visible = true;
+end
+Players.PlayerAdded:Connect(function(player)
+	if (player == LocalPlayer) then
+	else
+		local highlight = player.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\215\120\83\190\58\215\251\247\101", "\156\159\17\52\214\86\190"));
+		if highlight then
+			highlight.FillColor = boxColor;
+		end
+		local corners = get2DBoundingBoxCorners(player.Character);
+		if corners then
+			drawBox(corners, player.UserId);
+		end
+		playerBoxColors[player.UserId] = boxColor;
+	end
+end);
+if (not state or (1481 >= 2658)) then
+	clearDrawings();
+else
+	applyBoxColor();
+end
+Players.PlayerRemoving:Connect(function(player)
+	if drawings[player.UserId] then
+		drawings[player.UserId].Visible = false;
+	end
+end);
+local tracerColor = Color3.fromRGB(255, 255, 0);
+local playerTracerColors = {};
+local function applyTracerColor()
+	for _, player in ipairs(Players:GetPlayers()) do
+		if ((player ~= LocalPlayer) and player.Character) then
+			if (tracerLines[player.UserId] or (3220 == 1364)) then
+				tracerLines[player.UserId].Color = playerTracerColors[player.UserId] or tracerColor;
+			end
+		end
+	end
+end
+MiscTab:CreateColorPicker({[LUAOBFUSACTOR_DECRYPT_STR_0("\128\238\176\185", "\220\206\143\221")]=LUAOBFUSACTOR_DECRYPT_STR_0("\178\111\44\20\221\222\146\163\78\29\87\251\195\222\137\111\109\90\149\206\199\129\122\52\86", "\178\230\29\77\119\184\172"),[LUAOBFUSACTOR_DECRYPT_STR_0("\214\177\6\20\101", "\152\149\222\106\123\23")]=tracerColor,[LUAOBFUSACTOR_DECRYPT_STR_0("\251\42\247\68", "\213\189\70\150\35")]=LUAOBFUSACTOR_DECRYPT_STR_0("\123\71\117\11\74\71\87\7\67\90\102", "\104\47\53\20"),[LUAOBFUSACTOR_DECRYPT_STR_0("\128\77\141\16\190\14\160\71", "\111\195\44\225\124\220")]=function(color)
+	tracerColor = color;
+	applyTracerColor();
+end});
+local function toggleTracerESP(state)
+	for _, player in ipairs(Players:GetPlayers()) do
+		if (((player ~= LocalPlayer) and player.Character and player.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\240\83\13\114\165\164\209\66\50\124\164\191\232\71\18\103", "\203\184\38\96\19\203"))) or (1054 > 3392)) then
+			if (tracerEnabled or (676 >= 1642)) then
+				local rootPart = player.Character.HumanoidRootPart;
+				local screenPos, onScreen = Camera:WorldToViewportPoint(rootPart.Position);
+				if onScreen then
+					if not tracerLines[player.UserId] then
+						local line = Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\21\122\119\68", "\174\89\19\25\33"));
+						line.Visible = true;
+						line.Thickness = 1.5;
+						line.Color = tracerColor;
+						tracerLines[player.UserId] = line;
+					end
+					local screenSize = Camera.ViewportSize;
+					local from = Vector2.new(screenSize.X / 2, screenSize.Y);
+					local to = Vector2.new(screenPos.X, screenPos.Y);
+					local line = tracerLines[player.UserId];
+					line.Visible = true;
+					line.From = from;
+					line.To = to;
+				end
+			elseif ((4136 > 2397) and tracerLines[player.UserId]) then
+				tracerLines[player.UserId].Visible = false;
+			end
+		end
+	end
+end
+Players.PlayerAdded:Connect(function(player)
+	if ((player ~= LocalPlayer) or (4334 == 4245)) then
+		if tracerLines[player.UserId] then
+			tracerLines[player.UserId].Color = tracerColor;
+		end
+	end
+end);
+Players.PlayerRemoving:Connect(function(player)
+	if (tracerLines[player.UserId] or (4276 <= 3031)) then
+		tracerLines[player.UserId]:Remove();
+		tracerLines[player.UserId] = nil;
+	end
+end);
+RunService.RenderStepped:Connect(function()
+	if (tracerEnabled or (4782 <= 1199)) then
+		for _, player in ipairs(Players:GetPlayers()) do
+			if (((player ~= LocalPlayer) and player.Character and player.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\7\7\95\79\249\136\2\43\32\93\65\227\183\10\61\6", "\107\79\114\50\46\151\231"))) or (4864 < 1902)) then
+				local rootPart = player.Character.HumanoidRootPart;
+				local screenPos, onScreen = Camera:WorldToViewportPoint(rootPart.Position);
+				if onScreen then
+					if not tracerLines[player.UserId] then
+						local line = Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\21\175\187\44", "\160\89\198\213\73\234\89\215"));
+						line.Visible = true;
+						line.Thickness = 1.5;
+						line.Color = tracerColor;
+						tracerLines[player.UserId] = line;
+					end
+					local screenSize = Camera.ViewportSize;
+					local from = Vector2.new(screenSize.X / 2, screenSize.Y);
+					local to = Vector2.new(screenPos.X, screenPos.Y);
+					local line = tracerLines[player.UserId];
+					line.Visible = true;
+					line.From = from;
+					line.To = to;
+				elseif ((4839 >= 3700) and tracerLines[player.UserId]) then
+					tracerLines[player.UserId].Visible = false;
+				end
+			elseif (tracerLines[player.UserId] or (1075 > 1918)) then
+				tracerLines[player.UserId].Visible = false;
+			end
+		end
+	end
+end);
+local Button = MiscTab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\102\112\185\251", "\165\40\17\212\158")]=LUAOBFUSACTOR_DECRYPT_STR_0("\193\220\27\39\52\234\192\72\0\37\247\208\24\39", "\70\133\185\104\83"),[LUAOBFUSACTOR_DECRYPT_STR_0("\39\68\72\38\203\5\70\79", "\169\100\37\36\74")]=function()
+	clearDrawings();
+	for _, player in ipairs(Players:GetPlayers()) do
+		local highlight = player.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\40\142\165\88\12\142\165\88\20", "\48\96\231\194"));
+		if highlight then
+			highlight:Destroy();
+		end
+		espenabled = false;
+		tracerEnabled = false;
+		if ((396 <= 3804) and tracerLines[player.UserId]) then
+			tracerLines[player.UserId]:Remove();
+			tracerLines[player.UserId] = nil;
+		end
+		AimbotEnabled = false;
+		FOVCircle.Visible = false;
+		noclipEnabled = false;
+		for _, part in pairs(LocalPlayer.Character:GetDescendants()) do
+			if (part:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\234\91\29\40\41\217\189\151", "\227\168\58\110\77\121\184\207")) and (part.CanCollide == false)) then
+				part.CanCollide = true;
+			end
+		end
+		WalkSpeedSlider:Set(16);
+		JumpPowerSlider:Set(50);
+		flying = false;
+		if flyConn then
+			flyConn:Disconnect();
+			flyConn = nil;
+		end
+		if velocity then
+			velocity:Destroy();
+			velocity = nil;
+		end
+		if gyro then
+			gyro:Destroy();
+			gyro = nil;
+		end
+		flySpeed = 50;
+		if (velocity or (4169 == 2187)) then
+			velocity.Velocity = velocity.Velocity.Unit * flySpeed;
+		end
+		Rayfield:Destroy();
+	end
+end});
